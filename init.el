@@ -9,7 +9,7 @@
  '(indent-tabs-mode nil)
  '(package-selected-packages
    (quote
-    (lua-mode moonscript scala-mode toml-mode swift-mode rust-mode org go-mode)))
+    (lua-mode moonscript scala-mode toml-mode swift-mode rust-mode go-mode)))
  '(show-trailing-whitespace t)
  '(tab-width 4))
 (custom-set-faces
@@ -26,8 +26,6 @@
   (require 'package)
   (add-to-list 'package-archives
                '("melpa" . "https://melpa.org/packages/") t)
-  (add-to-list 'package-archives
-               '("org" . "http://orgmode.org/elpa/") t)
   (package-initialize))
 ;; toml support
 (when (>= emacs-major-version 24)
