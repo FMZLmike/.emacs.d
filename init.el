@@ -9,7 +9,7 @@
  '(indent-tabs-mode nil)
  '(package-selected-packages
    (quote
-    (web-mode lua-mode moonscript scala-mode toml-mode swift-mode rust-mode go-mode)))
+    (dockerfile-mode web-mode lua-mode moonscript scala-mode toml-mode swift-mode rust-mode go-mode)))
  '(show-trailing-whitespace t)
  '(tab-width 4))
 (custom-set-faces
